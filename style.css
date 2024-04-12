@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    background: #f9e1e1;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    padding-top: 0;
+}
+
+header {
+    background-color: #ff8b8b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #fbd0d0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#acerca-de-mi p {
+    text-align: justify;
+}
+
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#experiencia ul li {
+    margin-bottom: 10px;
+}
+
+#experiencia ul li strong {
+    font-weight: bold;
+}
+
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#proyectos ul li {
+    margin-bottom: 10px;
+}
+
+#proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#proyectos ul li a:hover {
+    text-decoration: underline;
+}
+
+#contacto form {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-fijo.fijo {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.animacion-titulo {
+    animation: aparecer 3s ease-in-out;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
